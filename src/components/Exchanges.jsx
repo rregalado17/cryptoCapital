@@ -3,7 +3,9 @@ import React from 'react'
 export const Exchanges = () => {
     return (
         <div>
-            Exchanges
+            <h2>Exchanges</h2> 
         </div>
     )
 }
+
+export default Exchanges;
