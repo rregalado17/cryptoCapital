@@ -1,4 +1,4 @@
-/* :root{
+:root{
     --text-primary:#000;
     --bgPrimary:#fff;
    --bgSecondary: #F9F9F9;
@@ -375,4 +375,4 @@ width: 70%;
     flex-direction: column;
     padding: 20px;
     align-items: center;
-} */
+}
