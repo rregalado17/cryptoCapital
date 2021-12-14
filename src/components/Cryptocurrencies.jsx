@@ -9,7 +9,7 @@ import { useGetCryptoQuery } from '../services/cryptoApi';
 
 const Cryptocurrencies = ( {simplified} ) => {
     const count = simplified ? 10 : 100
-    const {data: cryptosList, isFetching} = useGetCryptoQuery(count );
+    const {data: cryptosList, isFetching} = useGetCryptoQuery(count);
     const [cryptos, setCryptos] = useState([]);
     const [searchTerm, setSearchTerm] = useState('')
 
