@@ -1,4 +1,8 @@
 import React from 'react'
+import HTMLReactParser from 'html-react-parser';
+import { useParms } from 'react-router-dom'
+import millify from 'millify';
+
 
 export const CryptoDetails = () => {
     return (
